@@ -6,13 +6,15 @@ public class Node {
     Node south;
     Node west;
     Node east;
-    Node next;
-    Area area;
-    int x;
-    int y;
+    private Node next;
+    private String name;
+    private Area area;
+    private int x;
+    private int y;
 
 //TODO: constructor braucht: event, coord., nachbarn
-    public Node(int x, i
+    public Node(String name, int x, int y) {
+        this.name = name;
         this.x = x;
         this.y = y;
     }

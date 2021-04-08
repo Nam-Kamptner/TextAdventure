@@ -1,4 +1,6 @@
 package creatures;
 
-public class Player {
+public class Player extends Npc{
+    int hp;
+
 }
